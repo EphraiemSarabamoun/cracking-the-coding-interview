@@ -1,0 +1,4 @@
+Have three stacks at the start, middle, and end of a list. 
+Use pop,append for the stack at the end.
+Use insert(0,value),pop(0) for the stack at the start.
+Use pop(mid),insert(mid,value) for the stack at the middle.
