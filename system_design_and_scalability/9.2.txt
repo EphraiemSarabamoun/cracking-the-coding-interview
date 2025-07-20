@@ -1,0 +1,2 @@
+Info for the social network can be kept as a directional graph. Each user is a node and each connection is an edge. The graph can be stored in a SQL database. The shortest path between two users can be found using Dijkstra's algorithm.
+ 

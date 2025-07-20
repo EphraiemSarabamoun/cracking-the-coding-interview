@@ -1,0 +1,1 @@
+Use a SQL database with simple front-end for querying the database. The database can be kept in a AWS Aurora instance with read replicas for read scalability.

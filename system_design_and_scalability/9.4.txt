@@ -1,0 +1,1 @@
+Use a trie to store the URLs. If multiple URLs are mapped to the same node of the trie, then they are duplicates.
