@@ -1,0 +1,1 @@
+Number the bottles 1 to 1000. Line up the tests 1 to 10. Note that you can represent 1024 numbers in binary with 10 bits. Therefore add drops to the tests for each bottle based on the binary representation of the bottle number. When the test results come back, read off the number of the poisoned bottle in binary.

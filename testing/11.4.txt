@@ -1,0 +1,1 @@
+Test for response time and load by pinging different endpoints of the app over and over again, and measuring response.

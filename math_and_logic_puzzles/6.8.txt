@@ -1,0 +1,3 @@
+Okay, for egg one we choose a floor to drop it from, if it breaks, we need to check everything below it that is not ruled out, if it doesn't break, we need to check everything above it till an egg breaks.
+We can take the first egg in increments of 10. If it breaks, then we check the 10 floors below, if it does not break, then we go up 10 floors and check again. 
+Note the exact floor number is not optimal.

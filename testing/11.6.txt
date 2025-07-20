@@ -1,0 +1,1 @@
+Same as the previous problem. Identify where, when, and what criteria the ATM should satisfy and test its functionality in a real-world environment.

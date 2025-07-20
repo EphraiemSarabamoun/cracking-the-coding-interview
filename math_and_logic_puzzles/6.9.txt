@@ -1,0 +1,1 @@
+This really has to do with the number of squares up to 100. Only squares will be open, everything else will be closed. Therefore there will be 10 open doors after the 100th pass.

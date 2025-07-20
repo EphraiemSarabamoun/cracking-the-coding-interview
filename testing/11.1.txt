@@ -1,0 +1,1 @@
+Unsigned integers are cannot be negative, so the loop will never terminate.

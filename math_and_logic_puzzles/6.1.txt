@@ -1,0 +1,2 @@
+Take one pill from the first bottle, two from the second, etc, and weigh them all together. The weight should be 210 + x grams. 
+The bottle with the heavy pills is the (x/0.1) th bottle.

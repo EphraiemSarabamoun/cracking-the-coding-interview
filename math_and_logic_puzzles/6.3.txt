@@ -1,0 +1,2 @@
+The removed squares will have the same color. Therefore we will endup with 30 squares of one color and 32 of the other.
+Each domino must cover one square of each color. Therefore, we will not be able to cover all 32 squares of one color with 31 dominoes.

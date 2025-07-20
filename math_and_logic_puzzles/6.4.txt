@@ -1,0 +1,5 @@
+Start at one vertex, you can choose either edge with 0.5 probability with no contribution to the chance of collision. 
+The second vertex has freedom to move one way, but a chance of collision moving the other way of probability (1/2 * 1/2).
+The third vertex has chance of collision both ways of probability (1/2 * 1/2) and (1/2 * 1/2).
+Therefore total chance of collision is 0.75.
+For an n-ants in an n degree polygon, the chance of avoiding collision is (1/2)^(n-1). Therefore, chance of collision is 1 - (1/2)^(n-1)

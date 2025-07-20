@@ -1,0 +1,4 @@
+for game 1, probability of winning is p.
+For game 2, probability of winning is p^3 + 3*(1-p)*p^2 = 3p^2 - 2p^3
+Setting p = 3p^2 - 2p^3 we get (2p-1)*(p-1) = 0 which gives p = 1/2
+Therefore, play game one for p < 1/2 and game two for p > 1/2

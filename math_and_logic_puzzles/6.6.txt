@@ -1,0 +1,3 @@
+If there is only one blue eyed person, they will notice no one else with blue eyes and since there is at least one blue eyed person, they will leave on the first day.
+If there are two blue eyed people, they will both reason that the other person will leave on the first day if there is only one blue eyed person. Since they don't, they will both leave on the second day.
+This same logic holds for any number of blue eyed people, and therefore it will take n days for n blue eyed people to leave.

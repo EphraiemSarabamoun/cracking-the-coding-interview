@@ -1,0 +1,2 @@
+Make sure the function works by itself. That it returns TRUE only for all legal moves for each piece, and FALSE for all possible illegal moves.
+Including moves outside the bounds of the board. Then make sure that the function runs efficiently in the context of the code.
