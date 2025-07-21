@@ -24,13 +24,17 @@ class Othello:
         for i in range(len(self.board.board)):
             for j in range(len(self.board.board[0])):
                 if i == 0 or i == len(self.board.board)-1:
-                    if self.board.board[i][j] != self.turn.value and (self.board.board[i][j-1] == self.turn.value and self.board.board[i][j+1] == self.turn.value):
+                    if j == 0 or j == len(self.board.board[0])-1:
+                        continue
+                    if self.board.board[i][j] != self.turn.value and self.board.board[i][j] != 0 and (self.board.board[i][j-1] == self.turn.value and self.board.board[i][j+1] == self.turn.value):
                         self.board.board[i][j] = self.turn.value
                 if j == 0 or j == len(self.board.board[0])-1:
-                    if self.board.board[i][j] != self.turn.value and (self.board.board[i-1][j] == self.turn.value and self.board.board[i+1][j] == self.turn.value):
+                    if i == 0 or i == len(self.board.board)-1:
+                        continue
+                    if self.board.board[i][j] != self.turn.value and self.board.board[i][j] != 0 and (self.board.board[i-1][j] == self.turn.value and self.board.board[i+1][j] == self.turn.value):
                         self.board.board[i][j] = self.turn.value
                 else:
-                    if self.board.board[i][j] != self.turn.value and ((self.board.board[i-1][j] == self.turn.value and self.board.board[i+1][j] == self.turn.value) or (self.board.board[i][j-1] == self.turn.value and self.board.board[i][j+1] == self.turn.value)):
+                    if self.board.board[i][j] != self.turn.value and self.board.board[i][j] != 0 and ((self.board.board[i-1][j] == self.turn.value and self.board.board[i+1][j] == self.turn.value) or (self.board.board[i][j-1] == self.turn.value and self.board.board[i][j+1] == self.turn.value)):
                         self.board.board[i][j] = self.turn.value
     def check_for_game_over(self):
         for i in range(len(self.board.board)):
