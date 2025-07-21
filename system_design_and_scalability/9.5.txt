@@ -1,0 +1,1 @@
+Caching could be split up between machines in a cluster. Queries can be assigned to machines based on the hash of the query to allow for easy lookups. Update caches when a query returns a different result than expected or when a query is unresponsive or unused for a long time.

@@ -1,0 +1,1 @@
+The backend would retrieve bank info using API calls to the bank. This info would be stored in a SQL database. Analysis can be run on the data in the database to find patterns and make predictions. This info can then be presented to the user on a frontend.

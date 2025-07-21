@@ -1,0 +1,1 @@
+A SQL database can be used to store the information. Best selling info can be selecting using different queries.

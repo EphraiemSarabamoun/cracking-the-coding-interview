@@ -1,0 +1,2 @@
+To design a chat, I would use classes for Users, Chats, and Messages. There would be methods to add/remove users, add/remove chats, and add/remove messages in a given chat. There would also be methods to get users, chats, and messages. 
+One challenge would be somehow tying the user class with the correct user. This can be done by means of a login page.
