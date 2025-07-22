@@ -1,0 +1,7 @@
+companies (company_id, company_name)
+professionals (professional_id, professional_name, company_id)
+people (person_id, person_name, professional_id = null)
+
+professionals to companies are a many to one relationship.
+people to professionals are a one to one relationship (a professional is a person, but not all people are professionals).
+

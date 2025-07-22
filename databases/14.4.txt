@@ -1,0 +1,6 @@
+There are INNER joins, LEFT joins, RIGHT joins, FULL joins, and CROSS joins. 
+INNER joins keep only the rows that have matching values in both tables.
+LEFT joins keep all the rows from the left table and the matching rows from the right table.
+RIGHT joins keep all the rows from the right table and the matching rows from the left table.
+FULL joins keep all the rows from both tables.
+CROSS joins keep all the rows from both tables, but without matching.

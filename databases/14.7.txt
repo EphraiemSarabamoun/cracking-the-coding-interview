@@ -1,0 +1,2 @@
+I image a large table with the primary key begin the student_id. The table would have columns for the student's name and grade in every class. 
+To return the top 10% of students the query can calculate GPA based on all course grades and sort students by GPA. 

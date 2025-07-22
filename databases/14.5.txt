@@ -1,0 +1,2 @@
+Denormalization is the process of adding redundant data to a database to improve query performance. It is often used in OLTP systems to reduce the number of joins required to retrieve data.
+Denormalization is useful when the number of read operations massively exceeds the number of write operations.
