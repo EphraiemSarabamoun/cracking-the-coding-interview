@@ -1,0 +1,3 @@
+HashMap: Unordered, O(1) average get/put. Uses hashing. Useful for fast lookups without order (e.g., caching).
+LinkedHashMap: Maintains insertion order (or access order if specified). O(1) get/put. Useful for LRU caches or ordered iteration.
+TreeMap: Sorted by keys (red-black tree), O(log n) get/put. Useful for sorted data (e.g., range queries).

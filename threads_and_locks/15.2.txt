@@ -1,0 +1,6 @@
+A context switch is the OS pausing one thread/process and resuming another:
+
+Save state: Program counter (PC), registers, stack pointer to Thread Control Block (TCB) or Process Control Block (PCB).
+Select next: Via scheduler (e.g., round-robin).
+Restore state: Load from TCB/PCB, switch to user mode.
+For threads: Faster, no memory map change; processes: Update page tables.

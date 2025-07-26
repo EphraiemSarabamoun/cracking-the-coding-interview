@@ -11,15 +11,15 @@ def find_missing_int(file_path: str) -> int:
                 break
             num = struct.unpack('<I', data)[0]
             bucket = num // RANGE_SIZE
-            if bucket < NUM_BUCKETS:  # Prevent index errors for out-of-range nums
+            if bucket < NUM_BUCKETS:  
                 buckets[bucket] += 1
     for bucket in range(NUM_BUCKETS):
         if buckets[bucket] < RANGE_SIZE:
             break
     else:
-        return -1  # No missing number found
+        return -1 
     start = bucket * RANGE_SIZE
-    bits = [0] * ((RANGE_SIZE + 31) // 32)  # Bit array
+    bits = [0] * ((RANGE_SIZE + 31) // 32)  
     with open(file_path, 'rb') as f:
         while True:
             data = f.read(4)

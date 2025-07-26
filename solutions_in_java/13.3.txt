@@ -1,0 +1,3 @@
+final: A keyword for immutability. For variables, it means the value can't be changed after initialization (constants). For methods, it prevents overriding in subclasses. For classes, it prevents inheritance (no subclasses).
+finally: A block in try-catch-finally for code that always executes after try/catch, regardless of exceptions or returns. Used for cleanup (e.g., closing resources).
+finalize: A method in Object class, called by the garbage collector before reclaiming an object's memory. It's deprecated in Java 9+ (use Cleaner instead) due to unreliability—it's not guaranteed to run, and overriding it can cause issues.

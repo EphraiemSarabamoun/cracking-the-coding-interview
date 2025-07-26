@@ -1,0 +1,2 @@
+Process: Independent execution unit with private memory space, created by OS (e.g., separate JVM instances). Communication via IPC (pipes, sockets). High overhead.
+Thread: Subunit within process, shares memory. Communication easy but needs synchronization (locks). Low overhead.

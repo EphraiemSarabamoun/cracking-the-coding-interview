@@ -1,1 +1,1 @@
-//"volatile" prevents compiler optimizations on a variable, ensuring each access reads/writes to memory directly. Useful for variables changed by external agents (e.g., OS, hardware) without code knowledge.
+//"volatile" prevents compiler optimizations on a variable, ensuring each access reads/writes to memory directly.

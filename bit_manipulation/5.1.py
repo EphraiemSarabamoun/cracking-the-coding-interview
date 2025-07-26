@@ -1,5 +1,5 @@
 def insertion(n: int, m: int, i: int, j: int) -> int:
-    all_ones = ~0  # -1 in two's complement
+    all_ones = ~0 
     left = all_ones << (j + 1)
     right = (1 << i) - 1
     mask = left | right

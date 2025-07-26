@@ -1,0 +1,3 @@
+Multiple puts concurrent → no corruption.
+Iteration while modify → ConcurrentModificationException in synchronized, Concurrent allows weak consistent.
+Test: Threads put/get, check consistency.
